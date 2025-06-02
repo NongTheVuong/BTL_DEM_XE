@@ -1,0 +1,8 @@
+venv/
+*.pt
+*.mp4
+*.dll
+*.lib
+*.pyd
+__pycache__/
+venv/
