@@ -9,17 +9,14 @@
 
 ---
 
-## 📁 Cấu trúc thư mục
-project
-│
-├── dem_xe/ # Chứa mã Arduino .ino để chạy trên ESP32-CAM
-├── yolo_server.py # Flask server để nhận ảnh gửi từ ESP32-CAM
-├── vehicle_tracker.py # Phân tích clip đếm xe và xác định hướng đi
-├── sort.py # Thuật toán theo dõi đối tượng SORT
-├── thong_ke.png # Hình ảnh thống kê kết quả
-├── .gitignore # Bỏ qua các file không cần upload
-
----
+**Cấu trúc thư mục**  
+project/  
+├── dem_xe/ # Mã Arduino .ino chạy trên ESP32-CAM  <br>
+├── yolo_server.py # Flask server nhận ảnh từ ESP32-CAM  <br>
+├── vehicle_tracker.py # Phân tích clip đếm và hướng đi  <br>
+├── sort.py # Thuật toán theo dõi đối tượng SORT  <br>
+├── thong_ke.png # Hình ảnh thống kê kết quả  <br>
+└── .gitignore # Bỏ qua file không cần upload
 
 
 Hướng dẫn chạy từng phần
